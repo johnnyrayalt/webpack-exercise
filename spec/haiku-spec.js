@@ -46,4 +46,11 @@ describe('getNumVowels', function() {
     expect(getNumVowels("beautifule")).toEqual(3);
   });
 
+  it('should return the number of vowels in a word', function() {
+    expect(getNumVowels("refridgerator")).toEqual(5);
+  });
+
+  // it('should return the number of vowels in a word', function() {
+  //   expect(getNumVowels("yappy")).toEqual(2);
+  // });
 });

@@ -1,4 +1,4 @@
-export class Haiku {
+class Haiku {
   constructor(line1, line2, line3) {
     this.line1 = line1;
     this.line2 = line2;
@@ -22,10 +22,20 @@ export class Haiku {
   };
 }
 
+export { Haiku };
+
 export function getNumVowels(input) {
   let vowels = input.replace(/[^aeiou]|e$|es$|e's$|[aeiou](?=[aeiou])/gi,'');
   return vowels.length;
 }
+
+
+//encyclopedia
+//yappy
+//systemic
+//yeast
+//brea
+//ratio
 
 
 
